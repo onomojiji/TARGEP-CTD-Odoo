@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+
+    <menuitem id="menu_salaire_root"
+              name="Salaires"
+              sequence="0"/>
+
+    <menuitem id="menu_salaire_salaire_list"
+              name="Salaires traités"
+              parent="menu_salaire_root"
+              action=''
+              sequence="0"/>
+
+    <menuitem id="menu_salaire_executif_list"
+              name="Liste des executifs"
+              parent="menu_salaire_root"
+              action=''
+              sequence="0"/>
+
+    <menuitem id="menu_salaire_salaire_new"
+              name="Nouveau traitement"
+              parent="menu_salaire_root"
+              action=''
+              sequence="0"/>
+</odoo>

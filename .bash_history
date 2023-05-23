@@ -26,3 +26,5 @@ pip3 install -r odoo/requirements.txt
 deactivate
 mkdir /opt/odoo15/custom-addons
 exit
+psql
+exit
